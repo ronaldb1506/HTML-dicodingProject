@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: inline;
+}
+
+/* ----------------------------------------Navigasi Bar------------------------------------------------------------------- */
+
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 50%;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+
+nav .logo img {
+    width: 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #191919;
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid #8eaecd00;
+}
+
+nav ul li a:hover {
+    color: #8eaccd;
+    border-bottom: 2px solid #8eaccd;
+    padding-bottom: 10px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
